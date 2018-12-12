@@ -1,0 +1,114 @@
+// 引入文件
+@import 'base.less';
+
+// 导航栏区域的样式
+#nav {
+    padding: .1rem;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 33.3%;
+            a {
+                display: block;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 广告区域样式
+#banner {
+    padding: 0 .1rem;
+    display: flex;
+    .banner-left {
+        flex: 2;
+        a {
+            display: block;
+            font-size: 0;
+            img {
+                display: inline-block;
+                width: 50%;
+            }
+        }
+    }
+    .banner-right {
+        flex: 1;
+        a {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// 品牌部分样式
+#brand {
+    padding: .1rem;
+    .title {
+        width: 100%;
+        a {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .content {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                width: 25%;
+                a {
+                    display: block;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 运动专区,男士，女士部分样式
+#sport,#woman,#man {
+    padding: 0 .1rem;
+    .title {
+        a {
+            display: block;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .content {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                width: 50%;
+                a {
+                    display: block;
+                    margin-bottom: .1rem;
+                    img {
+                        width: 100%;
+                    }
+                    p {
+                        text-align: center;
+                    }
+                    button {
+                        background-color: #007aff;
+                        color: #fff;
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+

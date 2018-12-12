@@ -1,0 +1,88 @@
+// 定义变量
+@main-color: #006699;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+// 解决主体部分绝对定位的问题
+// .mui-scroll-wrapper {
+//     top: .45rem;
+//     bottom: .45rem;
+// }
+
+body {
+    padding: .45rem 0;
+    height: 100vh;
+}
+
+#main {
+    // 继承body的高度
+    height: 100%;
+    // 让miu的滚动区域，参照main绝对定位
+    position: relative;
+}
+// 头部的公共样式
+#header {
+    background-color: @main-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 .45rem;
+    z-index: 999;
+    h4 {
+        height: .45rem;
+        width: 2.85rem;
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        line-height: .45rem;
+    }
+    a {
+        display: block;
+        height: .45rem;
+        width: .45rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        text-align: center;
+        line-height: .45rem;
+        font-size: .18rem;
+    }
+}
+
+// 底部样式
+#footer {
+    height: .45rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    background-color: @main-color;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 25%;
+            a {
+                display: block;
+                color: #fff;
+                text-align: center;
+                padding: .085rem;
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}

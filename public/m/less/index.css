@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+li {
+  list-style: none;
+}
+body {
+  padding: .45rem 0;
+  height: 100vh;
+}
+#main {
+  height: 100%;
+  position: relative;
+}
+#header {
+  background-color: #006699;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 .45rem;
+  z-index: 999;
+}
+#header h4 {
+  height: .45rem;
+  width: 2.85rem;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  line-height: .45rem;
+}
+#header a {
+  display: block;
+  height: .45rem;
+  width: .45rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  line-height: .45rem;
+  font-size: .18rem;
+}
+#footer {
+  height: .45rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  background-color: #006699;
+}
+#footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer ul li {
+  width: 25%;
+}
+#footer ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: .085rem;
+}
+#footer ul li a span {
+  display: block;
+}
+#nav {
+  padding: .1rem;
+}
+#nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#nav ul li {
+  width: 33.3%;
+}
+#nav ul li a {
+  display: block;
+}
+#nav ul li a img {
+  width: 100%;
+}
+#banner {
+  padding: 0 .1rem;
+  display: flex;
+}
+#banner .banner-left {
+  flex: 2;
+}
+#banner .banner-left a {
+  display: block;
+  font-size: 0;
+}
+#banner .banner-left a img {
+  display: inline-block;
+  width: 50%;
+}
+#banner .banner-right {
+  flex: 1;
+}
+#banner .banner-right a {
+  display: block;
+}
+#banner .banner-right a img {
+  width: 100%;
+}
+#brand {
+  padding: .1rem;
+}
+#brand .title {
+  width: 100%;
+}
+#brand .title a {
+  display: block;
+}
+#brand .title a img {
+  width: 100%;
+}
+#brand .content ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#brand .content ul li {
+  width: 25%;
+}
+#brand .content ul li a {
+  display: block;
+}
+#brand .content ul li a img {
+  width: 100%;
+}
+#sport,
+#woman,
+#man {
+  padding: 0 .1rem;
+}
+#sport .title a,
+#woman .title a,
+#man .title a {
+  display: block;
+}
+#sport .title a img,
+#woman .title a img,
+#man .title a img {
+  width: 100%;
+}
+#sport .content ul,
+#woman .content ul,
+#man .content ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#sport .content ul li,
+#woman .content ul li,
+#man .content ul li {
+  width: 50%;
+}
+#sport .content ul li a,
+#woman .content ul li a,
+#man .content ul li a {
+  display: block;
+  margin-bottom: .1rem;
+}
+#sport .content ul li a img,
+#woman .content ul li a img,
+#man .content ul li a img {
+  width: 100%;
+}
+#sport .content ul li a p,
+#woman .content ul li a p,
+#man .content ul li a p {
+  text-align: center;
+}
+#sport .content ul li a button,
+#woman .content ul li a button,
+#man .content ul li a button {
+  background-color: #007aff;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}

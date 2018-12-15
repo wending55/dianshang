@@ -132,3 +132,27 @@ body {
   display: block;
   margin: 0 auto;
 }
+#main {
+  background-color: #fff;
+}
+#main .product-list .title {
+  background-color: #ccc;
+}
+#main .product-list .title ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .product-list .title ul li {
+  flex: 1;
+}
+#main .product-list .title ul li a {
+  display: block;
+  text-align: center;
+  font-size: .18rem;
+  color: #666;
+  line-height: .35rem;
+  height: .35rem;
+}
+#main .product-list .title ul li.active a {
+  color: red;
+}

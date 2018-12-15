@@ -46,6 +46,7 @@ body {
         color: #fff;
         text-align: center;
         line-height: .45rem;
+        font-weight: normal;
     }
     form {
         width: 100%;
@@ -99,6 +100,58 @@ body {
                 padding: .085rem;
                 span {
                     display: block;
+                }
+            }
+        }
+    }
+}
+
+// 搜索表单的公共样式
+
+.form-search {
+    display: flex;
+    padding: .1rem;
+    .input-search {
+        flex: 1;
+        height: .34rem;
+        border-color: @main-color;
+        margin: 0;
+        border-radius: 0.06rem 0 0 0.06rem;
+        font-size: .14rem;
+    }
+    .btn-search {
+        width: .6rem;
+        height: .34rem;
+        background-color: @main-color;
+        border-color: @main-color;
+        border-radius: 0 0.06rem 0.06rem 0;
+        font-size: .14rem;
+    }
+}
+
+// 商品列表的公共样式
+.content {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 50%;
+            a {
+                display: block;
+                margin-bottom: .1rem;
+                box-shadow: 0px 0px 2px hotpink;
+                margin: .05rem;
+                img {
+                    width: 100%;
+                }
+                p {
+                    text-align: center;
+                }
+                button {
+                    background-color: #007aff;
+                    color: #fff;
+                    display: block;
+                    margin: 0 auto;
                 }
             }
         }

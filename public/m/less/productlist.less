@@ -1,0 +1,30 @@
+@import 'base.less';
+
+#main {
+    background-color: #fff;
+    .product-list {
+        .title {
+            background-color: #ccc;
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                li {
+                    flex: 1;
+                    a {
+                        display: block;
+                        text-align: center;
+                        font-size: .18rem;
+                        color: #666;
+                        line-height: .35rem;
+                        height: .35rem;
+                    }
+                    &.active {
+                        a {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -21,16 +21,29 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  height: .45rem;
+  width: 100%;
   padding: 0 .45rem;
   z-index: 999;
 }
 #header h4 {
-  height: .45rem;
-  width: 2.85rem;
   margin: 0;
   color: #fff;
   text-align: center;
   line-height: .45rem;
+  font-weight: normal;
+}
+#header form {
+  width: 100%;
+  height: .45rem;
+  padding: .05rem 0;
+}
+#header form input {
+  background-color: #fff;
+  text-align: left;
+  padding: 0;
+  padding-left: .1rem;
+  margin: 0;
 }
 #header a {
   display: block;
@@ -43,6 +56,12 @@ body {
   text-align: center;
   line-height: .45rem;
   font-size: .18rem;
+}
+#header a.left {
+  left: 0;
+}
+#header a.right {
+  right: 0;
 }
 #footer {
   height: .45rem;
@@ -67,6 +86,26 @@ body {
 }
 #footer ul li a span {
   display: block;
+}
+.form-search {
+  display: flex;
+  padding: .1rem;
+}
+.form-search .input-search {
+  flex: 1;
+  height: .34rem;
+  border-color: #006699;
+  margin: 0;
+  border-radius: 0.06rem 0 0 0.06rem;
+  font-size: .14rem;
+}
+.form-search .btn-search {
+  width: .6rem;
+  height: .34rem;
+  background-color: #006699;
+  border-color: #006699;
+  border-radius: 0 0.06rem 0.06rem 0;
+  font-size: .14rem;
 }
 #nav {
   padding: .1rem;
@@ -147,39 +186,4 @@ body {
 #woman .title a img,
 #man .title a img {
   width: 100%;
-}
-#sport .content ul,
-#woman .content ul,
-#man .content ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-#sport .content ul li,
-#woman .content ul li,
-#man .content ul li {
-  width: 50%;
-}
-#sport .content ul li a,
-#woman .content ul li a,
-#man .content ul li a {
-  display: block;
-  margin-bottom: .1rem;
-}
-#sport .content ul li a img,
-#woman .content ul li a img,
-#man .content ul li a img {
-  width: 100%;
-}
-#sport .content ul li a p,
-#woman .content ul li a p,
-#man .content ul li a p {
-  text-align: center;
-}
-#sport .content ul li a button,
-#woman .content ul li a button,
-#man .content ul li a button {
-  background-color: #007aff;
-  color: #fff;
-  display: block;
-  margin: 0 auto;
 }
